@@ -1,0 +1,14 @@
+body{
+    /*background-color: #202020;*/
+    background-color: black;
+}
+h3 {
+    text-align: center;
+    color: red;
+    padding: 3em;
+}
+button.ButtonToData{
+    background-color: wheat;
+    border-color: wheat;
+    padding-left: 2em;
+}
