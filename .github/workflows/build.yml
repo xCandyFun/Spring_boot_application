@@ -14,11 +14,9 @@ jobs:
 
       - name: Download and setup Oracle JDK
         uses: actions/setup-java@v2
-        run: |
-          wget -q https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.tar.gz -O jdk.tar.gz
-          tar -xf jdk.tar.gz
-          export export JAVA_HOME=$PWD/jdk-22
-          export PATH=$JAVA_HOME/bin:$PATH
+        with:
+          java-version: 'adopt@1.22'
+          distribution: 'adopt'
 
       - name: Check Java version
         run: java -version
