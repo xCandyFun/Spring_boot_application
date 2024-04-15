@@ -15,7 +15,7 @@ jobs:
       - name: Download and setup Oracle JDK
         uses: actions/setup-java@v2
         with:
-          java-version: 'adopt@1.22'
+          java-version: 'adopt@1.21'
           distribution: 'adopt'
 
       - name: Check Java version
