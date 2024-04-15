@@ -18,6 +18,7 @@ jobs:
           java-version: '21.0.2'
           distribution: 'adopt'
 
+
       - name: Check Java version
         run: java -version
 
