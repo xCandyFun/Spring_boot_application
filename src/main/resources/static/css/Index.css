@@ -8,7 +8,44 @@ h3 {
     padding: 3em;
 }
 button.ButtonToData{
-    background-color: wheat;
-    border-color: wheat;
+    background-color: black;
+    border-color: red;
+    position: relative;
+}
+
+button.ButtonToData#buttonOne{
+    left: 5em;
+}
+
+button.ButtonToData#buttonTwo{
+    left: 10em;
+}
+
+button.ButtonToData#buttonThree{
+    left: 15em;
+}
+
+button.ButtonToData#buttonFour{
+    left: 20em;
+}
+
+button.ButtonToData#buttonFive{
+    left: 25em;
+}
+
+button.ButtonToData#buttonSix{
+    left: 30em;
+}
+
+a.ButtonText{
+    color: red;
+}
+
+div.banner{
+    border-style: solid;
+    border-color: red;
+    color: red;
     padding-left: 2em;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
 }

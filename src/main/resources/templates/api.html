@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Api</title>
+    <link rel="stylesheet" type="text/css" href="/css/Api.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Data from MySQL Database</h1>
+
+    <div class="table-container">
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- Use Thymeleaf to iterate over data and populate table rows -->
+            <tr th:each="entity : ${entities}" class="Title">
+                <td th:text="${entity.id}" class="entityId"></td>
+                <td th:text="${entity.name}" class="entityName"></td>
+                <td th:text="${entity.age}" class="entityAge"></td>
+            </tr>
+            </tbody>
+        </table>
+        <button><a href="/index" class="ButtonLink">To homepage</a></button>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid red;
+    color: red;
+    text-align: center;
+}
+
+th {
+    color: black;
+    background-color: red;
+    font-weight: bold;
+}
+
+button{
+    border-color: red;
+    background-color: black;
+    position: relative;
+    top: 2em;
+}
+a.ButtonLink{
+    color: red;
+}
