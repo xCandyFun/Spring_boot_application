@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    color: red;
     background-color: black;
 }
 
@@ -40,3 +41,4 @@ button{
 a.ButtonLink{
     color: red;
 }
+

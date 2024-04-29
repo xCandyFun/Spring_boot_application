@@ -18,7 +18,7 @@ public class ApiController {
         this.dataService = dataService;
     }
 
-    @RequestMapping("/api")
+    @RequestMapping("/api/table")
     public String getAllEntities(Model model){
         List<DataEntity> entities = dataService.getAllEntities();
         model.addAttribute("entities", entities);

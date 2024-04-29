@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset = "ISO-8859-1" />
+    <meta charset = "UTF-8" />
     <link href = "css/Index.css" rel = "stylesheet"/>
     <title>Spring Boot Application</title>
 </head>
 <body>
 <h3>Welcome to Thymeleaf Spring Boot web application</h3>
 <div class="banner">
-    <button class="ButtonToData"><a href="/index/api" class="ButtonText">Table</a></button>
+    <button class="ButtonToData"><a href="/index/api/table" class="ButtonText">Table</a></button>
+
     <button class="ButtonToData" id="buttonOne">
-        <a class="ButtonText">Test1</a>
+        <a class="ButtonText" href="index/rawDataFromDatabase">Raw Data</a>
     </button>
     <button class="ButtonToData" id="buttonTwo">
-        <a class="ButtonText" >Test2</a>
+        <a class="ButtonText" href="http://localhost:8081/index/api/calendar">Calendar</a>
     </button>
     <button class="ButtonToData" id="buttonThree">
         <a class="ButtonText" >Test3</a>
