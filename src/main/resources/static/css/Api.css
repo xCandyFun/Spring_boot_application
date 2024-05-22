@@ -1,7 +1,11 @@
-body {
+body{
     font-family: Arial, sans-serif;
-    color: red;
-    background-color: black;
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 54em;
+    background-size: cover;
+    background-color: white;
 }
 
 .container {
@@ -21,24 +25,26 @@ table {
 
 th, td {
     padding: 8px;
-    border-bottom: 1px solid red;
-    color: red;
+    border: 0.1em solid black;
+    background: rgba(255,255,255,0.4);
+    color: black;
     text-align: center;
 }
 
 th {
     color: black;
-    background-color: red;
+    background: rgba(255,255,255,0.4);
     font-weight: bold;
+    border: 0.2em solid black;
 }
 
 button{
-    border-color: red;
-    background-color: black;
+    background: black;
     position: relative;
     top: 2em;
 }
 a.ButtonLink{
-    color: red;
+    color: white;
+    text-decoration: none;
 }
 
